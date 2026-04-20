@@ -1,0 +1,12 @@
+anthropic>=0.25.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+numpy>=1.26.0
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# Production upgrades (optional):
+# chromadb>=0.4.0          # Persistent vector store
+# sentence-transformers    # Local embedding model
+# cohere                   # Reranking + embeddings
+# qdrant-client            # Scalable vector DB
